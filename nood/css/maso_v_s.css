@@ -1,0 +1,108 @@
+
+body{
+  width: 375px;
+  height: auto;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar {
+  overflow: hidden;
+  background-color: #E9E9E9;
+  position: fixed;
+  bottom: 0;
+  width: 375px;
+  z-index: 100;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 37px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+.navbar a:active {
+  background-color: #262EFF4D;
+
+}
+
+.navbar_btn_2 {
+  background: #E9E9E9 url("/img/Component 3.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navbar_btn_1 {
+  background: #E9E9E9 url("/img/Component 6.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar_btn_3 {
+  background: #E9E9E9 url("/img/Component 5.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar_btn_4 {
+  background: #E9E9E9 url("/img/Component 2.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.navbar_btn_5 {
+  background: #E9E9E9 url("/img/Component 4.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.main_top{
+  position: absolute;
+  width: 375px;
+  height: 46px;
+  background: #262EFF;
+
+}
+.main_top_na {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.main_top_t{
+  position: absolute;
+  color: white;
+  font-size: 25px;
+  font-family: Arial;
+  left: 50px;
+  margin: 0;
+  top: 10px;
+
+
+}
+
+.main_img{
+  position: absolute;
+  width: 354px;
+  height: 348px;
+  left: 11px;
+  top: 60px;
+}
